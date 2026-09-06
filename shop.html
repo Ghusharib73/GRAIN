@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Shop GRAIN — premium fashion, watches, fragrance, and shoes." />
+  <title>Shop — GRAIN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="shop">
+  <div id="site-nav"></div>
+  <main class="shop-page">
+    <section class="shop-intro">
+      <div class="container shop-intro-inner">
+        <div>
+          <p class="eyebrow">GRAIN / SHOP</p>
+          <h1>The collection, <em>unfiltered.</em></h1>
+        </div>
+        <p>Twenty considered pieces across the GRAIN universe. Filter your way in, or take your time.</p>
+      </div>
+    </section>
+
+    <section class="shop-controls-wrap">
+      <div class="container">
+        <div class="shop-controls">
+          <div class="category-nav" id="shopCategoryNav">
+            <button class="shop-cat active" data-category="all">All Products</button>
+            <button class="shop-cat" data-category="Men">Men</button>
+            <button class="shop-cat" data-category="Women">Women</button>
+            <button class="shop-cat" data-category="Perfumes">Perfumes</button>
+            <button class="shop-cat" data-category="Shoes">Shoes</button>
+            <button class="shop-cat" data-category="Watches">Watches</button>
+          </div>
+          <div class="shop-tools">
+            <button class="icon-btn" id="shopSearchBtn" title="Search products" aria-label="Search products">⌕</button>
+            <button class="filter-toggle" id="filterToggle"><span>Filter</span><span>＋</span></button>
+          </div>
+        </div>
+        <div class="search-row" id="shopSearchRow">
+          <div class="search-inline"><span>⌕</span><input id="shopSearchInput" type="search" placeholder="Search by product, category or keyword..." autocomplete="off"/><button id="clearShopSearch">Clear</button></div>
+        </div>
+        <div class="filter-panel" id="filterPanel" hidden>
+          <div class="filter-field"><label for="minPrice">Min price</label><input id="minPrice" type="number" min="0" step="100" placeholder="0"></div>
+          <div class="filter-field"><label for="maxPrice">Max price</label><input id="maxPrice" type="number" min="0" step="100" placeholder="60000"></div>
+          <div class="filter-field"><label for="filterCategory">Category</label><select id="filterCategory"><option value="all">All categories</option><option>Men</option><option>Women</option><option>Perfumes</option><option>Shoes</option><option>Watches</option></select></div>
+          <div class="filter-field"><label for="filterSize">Size</label><select id="filterSize"><option value="all">Any size</option><option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>39</option><option>40</option><option>41</option><option>42</option><option>43</option><option>44</option><option>50ml</option><option>100ml</option></select></div>
+          <button class="btn btn-dark filter-apply" id="resetFilters">Reset filters</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shop-products-section" id="all-products">
+      <div class="container">
+        <div class="results-meta"><p id="resultsCount">20 products</p><span id="activeFilterSummary"></span></div>
+        <div class="product-grid shop-grid" id="shopGrid"></div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <div id="global-ui"></div>
+  <div id="product-modal-root"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
