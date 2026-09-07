@@ -27,7 +27,7 @@ const PRODUCT_IMAGES = {
 };
 
 const categoryCards = [
-  {name:'Men', price:'From PKR 9,900', image:'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=85'},
+  {name:'Men', price:'From PKR 9,900', image:'https://images.unsplash.com/photo-1633655442432-620aa55d7ac1?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
   {name:'Women', price:'From PKR 8,900', image:'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=85'},
   {name:'Watches', price:'From PKR 18,500', image:'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=900&q=85'},
   {name:'Perfumes', price:'From PKR 7,500', image:'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=900&q=85'},
@@ -35,10 +35,10 @@ const categoryCards = [
 ];
 
 const heroSlides = [
-  {title:'Modern tailoring\nfor men.', subtitle:'MEN / NEW SEASON', text:'Precision cuts, softened structure, and pieces built to move with you.', image:'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=2200&q=90'},
+  {title:'Modern tailoring\nfor men.', subtitle:'MEN / NEW SEASON', text:'Precision cuts, softened structure, and pieces built to move with you.', image:'https://images.unsplash.com/photo-1633655442432-620aa55d7ac1?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
   {title:'A softer\nkind of statement.', subtitle:'WOMEN / GRAIN EDIT', text:'Fluid silhouettes and subtle textures designed to feel effortless.', image:'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=2200&q=90'},
-  {title:'Objects with\nquiet presence.', subtitle:'WATCHES / TIMEKEEPING', text:'Refined watch faces and tactile finishes, selected for daily ritual.', image:'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=2200&q=90'},
-  {title:'Leave a\nlasting trace.', subtitle:'PERFUME / SCENT', text:'Layered fragrance made for skin, close conversations, and long evenings.', image:'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=2200&q=90'},
+  {title:'Objects with\nquiet presence.', subtitle:'WATCHES / TIMEKEEPING', text:'Refined watch faces and tactile finishes, selected for daily ritual.', image:'https://images.unsplash.com/photo-1609587312208-cea54be969e7?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
+  {title:'Leave a\nlasting trace.', subtitle:'PERFUME / SCENT', text:'Layered fragrance made for skin, close conversations, and long evenings.', image:'https://images.unsplash.com/photo-1512777576244-b846ac3d816f?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'},
   {title:'Finish the look\nfrom the ground up.', subtitle:'SHOES / ESSENTIALS', text:'Clean profiles, premium materials, and the right amount of attitude.', image:'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=2200&q=90'}
 ];
 
